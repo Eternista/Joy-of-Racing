@@ -23,7 +23,7 @@ export const Header = ({menuList} : HeaderProps) => {
                         <ul>
                             {menuList.map((item, index) => (
                                 <li key={index}>
-                                    <Link to={item.link}>{item.text}</Link>
+                                    {item.text}
                                 </li>
                             ))}
                         </ul>
